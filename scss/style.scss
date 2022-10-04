@@ -1,14 +1,25 @@
 // Импорт других файлов стилей
+@font-face{
+    font-family: 'Lumberjack';
+    src: url('../fonts/Lumberjack.woff2'),
+    url('../fonts/Lumberjack.woff');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 @import 'nullstyle';
 
 html,
 body{
     height: 100%;
-    font-family: 'Lumberjack';
+    font-family: 'Lumberjack', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #fff;
+    
 }
 
 .wrapper{

@@ -38,10 +38,6 @@ body{
     box-sizing: content-box;
 }
 
-.main{
-    flex: 1 1 auto;
-}
-
 // header - nav
 .header{
     background-color: #09090A;
@@ -77,5 +73,39 @@ body{
         }
     }
 }
+
+.main{
+    flex: 1 1 auto;
+}
+
+.main-block{
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__content{
+        max-width: 520px;
+        padding: 24% 0px;
+    }
+    &__content-title{
+        font-size: 96px;
+        text-transform: uppercase;
+        line-height: 108%;
+        color: #CA046A;
+        -webkit-text-stroke: 2.7px #fff;
+        text-shadow: 0px -3px 33px #CA046A;
+        mix-blend-mode: hard-light; 
+        margin-bottom: 20px
+    }
+    &__content-text{
+        font-size: 48px;
+        line-height: 106%;
+    }
+    &__content-text span{
+        color: #D6258F;
+    }
+}
+
+
 
 @import 'media';

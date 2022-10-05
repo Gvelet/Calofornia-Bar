@@ -1,4 +1,10 @@
-@media(max-width: 758px){
+@media(max-width: 1024px){
+    .main-block__content-text{
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 768px){
     .header__top-logo{
         margin: 0px 40px;
     }
@@ -14,13 +20,40 @@
         &__link{
             font-size: 16px;
         }
-    }   
+    }
+
+    .main-block__content{
+        max-width: 364px;
+    }
+    
+    .main-block__content-title{
+        font-size: 70px;
+    }
+
+    .main-block__content-text{
+        font-size: 36px;
+    }
 }
-@media(max-width: 424px){
+@media(max-width: 425px){
     .header__top-logo{
         margin: 0px 23px;
     }
     .menu__link{
         font-size: 14px;
+    }
+
+    .main-block__content{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .main-block__content-title{
+        font-size: 36px;
+        -webkit-text-stroke: 1px #fff;
+        margin-bottom: 10px;
+    }
+
+    .main-block__content-text{
+        font-size: 24px;
     }
 }

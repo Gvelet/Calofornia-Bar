@@ -19,6 +19,8 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    background-color: #020F1C;
+    color: #fff;
     
 }
 
@@ -39,3 +41,38 @@ body{
 .main{
     flex: 1 1 auto;
 }
+
+// header - nav
+.header{
+    background-color: #09090A;
+    &__top{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__top-logo{
+        margin: 0px 60px;
+    }
+}
+
+.menu{
+    &__list{
+        display: flex;
+    }
+    &__item + .menu__item{
+        margin-left: 30px;
+    }
+    &__link{
+        color: #fff;
+        font-weight: 400;
+        padding-bottom: 6px;
+        transition: border-bottom .3s;
+        &:hover{
+            border-bottom: 1px solid #D6258F;
+            color: #D3BDCA;
+        }
+    }
+}
+
+@import 'media';

@@ -70,6 +70,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  background-color: #020F1C;
+  color: #fff;
 }
 
 .wrapper {
@@ -88,4 +90,34 @@ body {
 
 .main {
   flex: 1 1 auto;
+}
+
+.header {
+  background-color: #09090A;
+}
+.header__top {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__top-logo {
+  margin: 0px 60px;
+}
+
+.menu__list {
+  display: flex;
+}
+.menu__item + .menu__item {
+  margin-left: 30px;
+}
+.menu__link {
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 6px;
+  transition: border-bottom .3s;
+}
+.menu__link:hover {
+  border-bottom: 1px solid #D6258F;
+  color: #D3BDCA;
 }

@@ -31,6 +31,17 @@ body{
     flex-direction: column;
 }
 
+.title{
+    font-size: 64px;
+    line-height: 76px;
+    color: #CA046A;
+    -webkit-text-stroke: 2.7px #fff;
+    text-shadow: 0px -3px 33px #CA046A;
+    mix-blend-mode: hard-light; 
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .container{
     max-width: 1310px;
     padding: 0 10px;

@@ -1,10 +1,67 @@
-@media(max-width: 1024px){
-    .main-block__content-text{
-        font-size: 40px;
+@media(max-width: 1720px){
+    .event__inner:after{
+        display: none;
+    }
+    .event__body{
+        position: relative;
+    }
+    .event__body:before{
+        content: '';
+        position: absolute;
+        background-image: url('../images/event-arrow-title.png');
+        background-repeat: no-repeat;
+        width: 286px;
+        height: 246px;
+        top: -165px;
+        left: 60px;
+        z-index: 1;
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 1440px){
+    .event{
+        padding: 100px 0;
+    }
+}
+
+@media(max-width: 1200px){
+    .event__body:before{
+        left: -25px;
+    } 
+}
+
+@media(max-width: 1023px){
+    .main-block__content-text{
+        font-size: 40px;
+    }
+    .event__body:before{
+        display: none;
+    }
+    .event{
+        padding: 90px 0;
+    }
+    .event__body{
+        margin: 0 auto;
+    }
+    .event__column{
+        flex: 0 1 50%;
+    }
+    .event__column:last-child{
+        display: none;
+    }
+    .event__item-text{
+        font-size: 18px;
+    }
+    .title{
+        font-size: 36px;
+        -webkit-text-stroke: 1px #fff;
+    }
+    .event__title{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 767px){
     .header__top-logo{
         margin: 0px 40px;
     }
@@ -33,6 +90,17 @@
     .main-block__content-text{
         font-size: 36px;
     }
+    .event{
+        padding: 80px 0;
+    }
+    .event__column{
+        flex: 0 100%;
+        padding: 0px 0px 30px;
+    }
+    .event__item{
+        max-width: 315px;
+        margin: 0 auto;
+    }
 }
 @media(max-width: 425px){
     .header__top-logo{
@@ -55,5 +123,21 @@
 
     .main-block__content-text{
         font-size: 24px;
+    }
+    .event{
+        padding: 40px 0;
+    }
+    .event__item-title{
+        font-size: 20px;
+    }
+    .event__item-text{
+        padding: 0px 5px 40px 5px; 
+    }
+}
+
+@media(max-width: 320px){
+    .event__item-text{
+        font-size: 14px;
+        text-align: center;
     }
 }

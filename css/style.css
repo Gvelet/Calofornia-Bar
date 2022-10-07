@@ -327,6 +327,30 @@ body {
   color: #D6258F;
 }
 
+.disco {
+  margin-bottom: 102px;
+  background-image: url("../images/background-disco.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.disco__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 228px 5px;
+}
+.disco__title {
+  font-size: 48px;
+  line-height: 57px;
+  color: #D6258F;
+  margin-bottom: 20px;
+}
+.disco__subtitle {
+  font-size: 36px;
+  line-height: 42px;
+}
+
 @media (max-width: 1720px) {
   .event__inner:after {
     display: none;

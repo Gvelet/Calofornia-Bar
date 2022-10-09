@@ -388,6 +388,9 @@ body {
   row-gap: 40px;
   column-gap: 30px;
 }
+.gallery__item {
+  max-width: 410px;
+}
 .gallery__img {
   max-width: 100%;
   border-radius: 20px;

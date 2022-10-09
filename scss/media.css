@@ -17,11 +17,19 @@
     z-index: 1; } }
 @media (max-width: 1440px) {
   .event {
-    padding: 100px 0; } }
+    padding: 100px 0; }
+
+  .new-content__inner-title:before {
+    content: '';
+    width: 350px; } }
 @media (max-width: 1200px) {
   .event__body:before {
-    left: -25px; } }
-@media (max-width: 1023px) {
+    left: -25px; }
+
+  .new__img img {
+    width: 320px;
+    height: 340px; } }
+@media (max-width: 1024px) {
   .main-block__content-text {
     font-size: 40px; }
 
@@ -48,7 +56,39 @@
     -webkit-text-stroke: 1px #fff; }
 
   .event__title {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+
+  .new {
+    margin-bottom: 60px; }
+
+  .new-content__inner-title {
+    font-size: 20px; } }
+@media (max-width: 935px) {
+  .new__body {
+    flex-wrap: wrap; }
+
+  .new-content {
+    max-width: 600px;
+    margin: 0 auto; }
+
+  .new__img img {
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; }
+
+  .new__img {
+    order: 1;
+    flex: 0 1 100%;
+    margin-bottom: 50px;
+    justify-content: center; }
+
+  .new-content {
+    order: 2; }
+
+  .new__img:before {
+    right: 50px;
+    top: -125px; } }
 @media (max-width: 767px) {
   .header__top-logo {
     margin: 0px 40px; }
@@ -81,7 +121,28 @@
 
   .event__item {
     max-width: 315px;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .new__title {
+    margin-bottom: 40px; }
+
+  .new__img:before {
+    display: none; }
+
+  .new__img img {
+    max-width: 100%; }
+
+  .new-content__inner-price {
+    font-size: 18px; }
+
+  .new-content__inner-subtitle {
+    max-width: 250px; }
+
+  .new-content__inner-title {
+    margin-bottom: 10px; }
+
+  .new__body {
+    margin-bottom: 40px; } }
 @media (max-width: 425px) {
   .header__top-logo {
     margin: 0px 23px; }
@@ -108,10 +169,25 @@
     font-size: 20px; }
 
   .event__item-text {
-    padding: 0px 5px 40px 5px; } }
+    padding: 0px 5px 40px 5px; }
+
+  .new-content__inner-title:before {
+    display: none; }
+
+  .new-content__inner-subtitle {
+    font-size: 14px; }
+
+  .new-content__inner-subtitle {
+    max-width: 180px; }
+
+  .new__button {
+    font-size: 18px; } }
 @media (max-width: 320px) {
   .event__item-text {
     font-size: 14px;
-    text-align: center; } }
+    text-align: center; }
+
+  .new__button {
+    font-size: 14px; } }
 
 /*# sourceMappingURL=media.css.map */

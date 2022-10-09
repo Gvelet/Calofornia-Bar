@@ -616,6 +616,18 @@ body {
   .new__button {
     font-size: 18px;
   }
+
+  .disco__content {
+    padding: 100px 5px;
+  }
+
+  .disco__title {
+    font-size: 36px;
+  }
+
+  .disco__subtitle {
+    font-size: 24px;
+  }
 }
 @media (max-width: 320px) {
   .event__item-text {

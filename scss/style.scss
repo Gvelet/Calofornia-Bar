@@ -325,4 +325,28 @@ body{
     }
 }
 
+.gallery{
+    padding: 102px 10px 100px;
+    background-image: url('../images/background-gallery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title{
+        margin-bottom: 60px;
+    }
+    &__inner{
+        display: grid;
+        grid-template-columns: repeat(3, 33.333%);
+        grid-template-rows: repeat(1fr 1fr);
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    &__item{
+        // 
+    }
+    &__img{
+        max-width: 100%;
+        border-radius: 20px;
+    }
+}
+
 @import 'media';

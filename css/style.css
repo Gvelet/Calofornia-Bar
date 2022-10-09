@@ -372,6 +372,27 @@ body {
   line-height: 42px;
 }
 
+.gallery {
+  padding: 102px 10px 100px;
+  background-image: url("../images/background-gallery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery__title {
+  margin-bottom: 60px;
+}
+.gallery__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 33.333%);
+  grid-template-rows: repeat(1fr 1fr);
+  row-gap: 40px;
+  column-gap: 30px;
+}
+.gallery__img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
 @media (max-width: 1720px) {
   .event__inner:after {
     display: none;

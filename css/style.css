@@ -349,7 +349,6 @@ body {
 }
 
 .disco {
-  margin-bottom: 102px;
   background-image: url("../images/background-disco.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -587,6 +586,12 @@ body {
 
   .new__body {
     margin-bottom: 40px;
+  }
+
+  .gallery__inner {
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1fr);
+    gap: 20px;
   }
 }
 @media (max-width: 425px) {
